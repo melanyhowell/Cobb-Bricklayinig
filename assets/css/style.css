@@ -1,1 +1,51 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500;600;700;800&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500;1,600&display=swap');
+
+/*--------------------- HEADER --------------------- */
+
+header {
+    min-height: 300px;
+}
+
+.logo {
+    /*padding-top: 20px;
+    text-align: left;*/
+    background: url("/assets/images/cb-main-no-bg-small.jpg.png") no-repeat center center;
+    height: 100px;
+}
+
+.logo-centered {
+    padding-top:20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 275%;
+}
+
+.main-menu {
+    padding-top: 25px;
+    text-align: center;
+}
+
+.nav-link {
+    color: #333333;
+}
+
+.bar-block {
+    background-color: #cccccc;
+    height: 1px;
+}
+
+/*--------------------- BODY--------------------- */
+
+.body-space {
+    height: 500px;
+    background-color: rgb(51, 51, 51, 0.1);
+}
+
+/*--------------------- FOOTER--------------------- */
+
+footer {
+    min-height: 200px;
+    background-color: #cccccc;
+}
